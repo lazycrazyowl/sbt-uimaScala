@@ -74,7 +74,7 @@ object SbtUimaPlugin extends Plugin with BuildCommon {
    *   jenshaase.uimaScala.core.XmlDescriptor
    */
   def discoverXmlDescriptors(analysis: inc.Analysis): Seq[String] = {
-    val descClass = "jenshaase.uimaScala.core.XmlDescriptor"
+    val descClass = "com.github.jenshaase.uimascala.core.XmlDescriptor"
 
     val discovery = Discovery(Set(descClass), Set.empty)(Tests allDefs analysis)
     discovery collect { case (df, disc) if (disc.baseClasses contains descClass) ⇒ df.name } toSeq
