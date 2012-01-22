@@ -1,7 +1,7 @@
 /**
  * Copyright (C) 2011 Jens Haase
  */
-package uimascala
+package com.github.jenshaase.uimascala
 
 import UimaTyp._
 import scala.xml._

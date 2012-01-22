@@ -1,16 +1,17 @@
 /**
  * Copyright (C) 2011 Jens Haase
  */
-package uimascala
+package com.github.jenshaase.uimascala
 
 import sbt._
 import Build.data
-import compiler.Discovery
 import complete._
 import DefaultParsers._
 import classpath._
 import std.TaskExtra._
 import Project.Initialize
+
+import xsbt.api.Discovery
 
 import sbinary.DefaultProtocol.StringFormat
 import Cache.seqFormat

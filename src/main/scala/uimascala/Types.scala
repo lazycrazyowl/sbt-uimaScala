@@ -1,7 +1,7 @@
 /**
  * Copyright (C) 2011 Jens Haase
  */
-package uimascala
+package com.github.jenshaase.uimascala
 
 object UimaTyp extends Enumeration {
   type UimaTyp = Value
