@@ -1,0 +1,31 @@
+target/
+lib_managed/
+src_managed/
+project/boot/
+*.iml
+*.ipr
+*.iws
+/.idea
+.scala-dependencies
+
+# Eclipse
+*.pydevproject
+.project
+.metadata
+.history
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# CDT-specific
+.cproject
+*~
+*.sublime-workspace
