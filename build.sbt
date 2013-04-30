@@ -1,6 +1,4 @@
-import sbtrelease.Release._
-
-seq(releaseSettings: _*)
+releaseSettings
 
 sbtPlugin := true
 
@@ -12,4 +10,4 @@ scalacOptions += "-deprecation"
 
 libraryDependencies += "org.apache.uima" % "uimaj-tools" % "2.3.1"
 
-publishTo := Some(Resolver.file("Local", Path.userHome / "programming" / "jenshaase.github.com" / "maven" asFile))
+publishTo := Some(Resolver.file("Local", Path.userHome / "dev" / "jenshaase.github.com" / "maven" asFile))
